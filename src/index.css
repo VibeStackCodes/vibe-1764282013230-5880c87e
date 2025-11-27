@@ -8,3 +8,17 @@
     @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-50;
   }
 }
+
+@layer components {
+  .task-list {
+    @apply p-4 rounded-lg shadow-md;
+  }
+  .task-creation-form {
+    @apply mb-4;
+  }
+  @media (max-width: 640px) {
+    .task-list {
+      @apply p-2;
+    }
+  }
+}

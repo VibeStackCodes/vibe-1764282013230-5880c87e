@@ -1,0 +1,9 @@
+.kanban-board {
+  @apply p-4 bg-gray-100 rounded-lg shadow-md;
+}
+
+@media (max-width: 640px) {
+  .kanban-board {
+    @apply p-2;
+  }
+}
